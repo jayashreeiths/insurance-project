@@ -381,16 +381,16 @@ footer{
 }
 .subheading1 img{
     align-self:end;
-    /*max-width:90%;*/
+    max-width:90%;
     min-width: 300px
     /*margin-top:0;*/
-    width: 20vw; 
+    
 }
 
 nav{
     display:block
 }
-}
+
 @media only screen and (min-width: 650px) {
     /* About us */
 
@@ -466,6 +466,7 @@ nav{
 
 
   /* Contact page styles*/
+
   .heading h1{
     max-width: 314px;
     height: 90px;
@@ -488,7 +489,7 @@ nav{
       background-color: #C7DDEA;
   }
   .heading img{
-      margin-left: 45rem;
+      margin-left: 50rem;
       margin-top: 56px;
   }
   .fill_form{
@@ -552,7 +553,7 @@ nav{
     }
     .map_display{
         padding-top: 45px;
-    height: 407px;
+    height: 500px;
     background-image: url("../images/map.png");
     color: white;
     display: flex;
@@ -571,9 +572,9 @@ nav{
     font-size: 14px;
     line-height: 24px;
     }
-    .map{
+    .map img{
         align-self: center;
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     
